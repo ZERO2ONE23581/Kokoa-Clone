@@ -1,0 +1,27 @@
+/* css hack */
+
+.status-bar {
+  padding: 5px 3px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-bar__column {
+  width: 33%;
+}
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+/* CSS HACK은 일종의 flex를 이용한 일종의 기술인데 컨테이너에 플렉시를 주고 자식 갯수에따라 퍼센트로 나눠준다음 중앙과 끝에는 각각 center와 flex-end를 준다. */
+.status-bar__column .fa-battery-full {
+  margin: 0 5px;
+}
