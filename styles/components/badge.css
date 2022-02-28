@@ -1,0 +1,26 @@
+.badge-sm-gear,
+.badge-sm,
+.badge {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.badge-sm {
+  width: 5px;
+  height: 5px;
+  bottom: 22px;
+  left: 22px;
+}
+.badge-sm-gear {
+  width: 5px;
+  height: 5px;
+  top: -3px;
+  left: 25px;
+  position: absolute;
+}

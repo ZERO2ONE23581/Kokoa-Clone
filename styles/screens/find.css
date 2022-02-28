@@ -1,0 +1,92 @@
+.main-screen.find {
+  height: 100vh;
+}
+.gear__notification {
+  position: relative;
+}
+.recommends {
+  border-top: 1px solid rgb(222, 216, 216);
+  border-bottom: 1px solid rgb(222, 216, 216);
+  padding: 20px 0;
+}
+.recommends__current-state {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.open-chat {
+  padding: 10px 0;
+}
+.open-chat__row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+.open-chat__row span {
+  font-size: 14px;
+  opacity: 0.6;
+}
+.openchat-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.openchat-list__item:first-child {
+  border-bottom: 1px solid rgb(222, 216, 216);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.openchat-list__info p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+.openchat-list__info p:nth-child(2) {
+  font-size: 17px;
+  opacity: 0.6;
+  margin: 5px 0;
+}
+.details {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.details .user-profile img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+.details span:nth-child(2) {
+  color: rgba(0, 0, 0, 0.4);
+}
+.details span:nth-child(3) {
+  color: #ffc5e9;
+}
+.openchat-list__photo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.openchat-list__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  opacity: 0.8;
+}
+.openchat-list__likes {
+  padding: 5px 7px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}

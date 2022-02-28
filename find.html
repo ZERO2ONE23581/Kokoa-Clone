@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>find (준우)</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <!-- <span><i class="fa-solid fa-gear fa-lg"></i></span> -->
+        <span class="gear__notification">
+          <i class="fa-solid fa-gear fa-lg"></i>
+          <span class="badge-sm-gear"></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen find">
+      <div class="icons">
+        <button>
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </button>
+        <button>
+          <i class="fa-solid fa-address-book"></i>
+          <span>Add by Contract</span>
+        </button>
+        <button>
+          <i class="fa-solid fa-id-badge"></i>
+          <span>Add by ID</span>
+        </button>
+        <button>
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </button>
+      </div>
+      <div class="recommends">
+        <h1>Recommended Friends</h1>
+        <div class="recommends__current-state">
+          <p>You have no recommneded friends.</p>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__row">
+          <h1>Open Chat</h1>
+          <button>
+            <span>Go to Openchat Home</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <ul class="openchat-list">
+          <li class="openchat-list__item">
+            <div class="openchat-list__info">
+              <p>#Paul Blanco</p>
+              <p>#Hiphop#PaulBlanco</p>
+              <div class="details">
+                <div class="user-profile"><img src="img/pualblanco2.jpeg" alt="" /></div>
+                <span>802 members | </span>
+                <span>Active</span>
+              </div>
+            </div>
+            <div class="openchat-list__photo">
+              <img src="img/paulblanco.jpeg" alt="artist img" />
+              <div class="openchat-list__likes">
+                <i class="fa-solid fa-heart"></i>
+                326
+              </div>
+            </div>
+          </li>
+          <li class="openchat-list__item">
+            <div class="openchat-list__info">
+              <p>Lil Uzi Vert~</p>
+              <p>#liluzivert</p>
+              <div class="details">
+                <div class="user-profile"><img src="img/liluzi2.jpeg" alt="" /></div>
+                <span>802 members | </span>
+                <span>Active</span>
+              </div>
+            </div>
+            <div class="openchat-list__photo">
+              <img src="img/liluzi.jpeg" alt="artist img" />
+              <div class="openchat-list__likes">
+                <i class="fa-solid fa-heart"></i>
+                215
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a href="friends.html" class="nav__link">
+            <i class="fa-solid fa-user-large"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="find.html" class="nav__link">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a href="more.html" class="nav__link">
+            <span class="nav__notification ellip"></span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- JS -->
+    <script
+      src="https://kit.fontawesome.com/1d681e26c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
