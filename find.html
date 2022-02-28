@@ -27,7 +27,6 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <!-- <span><i class="fa-solid fa-gear fa-lg"></i></span> -->
         <span class="gear__notification">
           <i class="fa-solid fa-gear fa-lg"></i>
           <span class="badge-sm-gear"></span>
@@ -36,7 +35,7 @@
     </header>
 
     <main class="main-screen find">
-      <div class="icons">
+      <div class="icons icons-flex">
         <button>
           <i class="fa-solid fa-qrcode"></i>
           <span>QR Code</span>
@@ -54,12 +53,14 @@
           <span>Invite</span>
         </button>
       </div>
+
       <div class="recommends">
         <h1>Recommended Friends</h1>
         <div class="recommends__current-state">
           <p>You have no recommneded friends.</p>
         </div>
       </div>
+
       <div class="open-chat">
         <div class="open-chat__row">
           <h1>Open Chat</h1>
@@ -129,13 +130,12 @@
         </li>
         <li class="nav__li">
           <a href="more.html" class="nav__link">
-            <span class="nav__notification ellip"></span>
+            <span class="nav__notification badge badge-sm"></span>
             <i class="fa-solid fa-ellipsis"></i>
           </a>
         </li>
       </ul>
     </nav>
-
     <!-- JS -->
     <script
       src="https://kit.fontawesome.com/1d681e26c5.js"

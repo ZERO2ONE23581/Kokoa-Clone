@@ -1,0 +1,43 @@
+.fa-circle-exclamation.detail {
+  color: red;
+  margin-left: 5px;
+}
+.fa-regular.fa-message.detail {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.drive-icon {
+  position: relative;
+}
+.suggestion {
+  padding-top: 20px;
+  border-top: 1px solid rgb(222, 216, 216);
+  margin-top: 20px;
+}
+.suggestion h1 {
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.suggestion__wrap {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+}
+.suggestion__wrap button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestion__wrap button img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.suggestion__wrap button span {
+  margin-top: 10px;
+  opacity: 0.4;
+  font-size: 15px;
+}
